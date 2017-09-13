@@ -1,8 +1,9 @@
-# Building a To Do list with ReactJS 
----
+# Building a To Do list with ReactJS
 ##### A React tutorial for talangprogrammet 2017 generated using [create-react-app](https://github.com/facebookincubator/create-react-app)
-&nbsp;
+
+
 ![Com Hem](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSKoI_VsCygNKs_M50WQaUp4ibBAfgj3hgSxjBWBR-y2od8FX0sFc74P81)
+
 
 This is an example of a simple to do list app written in React.
 You can structure your app however you like but try to include all the basic requirements below. 
@@ -23,13 +24,14 @@ $ npm start
 Then open http://localhost:3000/ to see your app.
 The page will reload automatically if you make edits.
 
+
 To run tests:
 
 ```sh
 $ npm test
 ```
 ##### You can now start building your first React component in ```app.js``` !
-&nbsp;
+
 # Basic requirements of the app:
   - Add a new todo to your todo-list
   - Edit a todo
