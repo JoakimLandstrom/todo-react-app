@@ -32,13 +32,13 @@ $ npm test
 ```
 ##### You can now start building your first React component in ```app.js``` :thumbsup:
 
-# Basic requirements of the app :star:
+# Basic requirements of the app :ledger:
   - Add a new todo to your todo-list
   - Edit a todo
   - Remove a todo from the list
   - Mark a todo as "done"
 
-# Optional extra features :rocket:
+# Optional extra features :star:
   - Use Redux as your state container
   - Filter todos by status
   - Set a due date for a todo
