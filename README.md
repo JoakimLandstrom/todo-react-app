@@ -10,7 +10,7 @@ This is an example of a simple to do list app written in React.
 You can structure your app however you like but try to include all the basic requirements below. 
 We have given some suggestions for additional features to do if you want and have time but these are optional :smiley:
 
-# Installation
+# Installation :wrench:
 Make sure you have the latest version of [Node.js](https://nodejs.org/) installed.
 Install the dependencies and start the local server.
 
@@ -32,13 +32,13 @@ $ npm test
 ```
 ##### You can now start building your first React component in ```app.js``` :thumbsup:
 
-# Basic requirements of the app:
+# Basic requirements of the app :star:
   - Add a new todo to your todo-list
   - Edit a todo
   - Remove a todo from the list
   - Mark a todo as "done"
 
-# Optional extra features:
+# Optional extra features :rocket:
   - Use Redux as your state container
   - Filter todos by status
   - Set a due date for a todo
@@ -46,7 +46,7 @@ $ npm test
   - Write further tests in ```app.test.js```
  - ....and more!
 
-# Useful Links
+# Useful Links :link:
 * [React documentation](https://facebook.github.io/react/) 
 * [Redux documentation](http://redux.js.org/) 
 * [Facebook React tutorial](https://facebook.github.io/react/tutorial/tutorial.html) 
