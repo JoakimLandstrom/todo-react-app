@@ -6,22 +6,33 @@
 ![Com Hem](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSKoI_VsCygNKs_M50WQaUp4ibBAfgj3hgSxjBWBR-y2od8FX0sFc74P81)
 <br><br>
 
-This is an example of a simple to do list app written in React.
-You can structure your app however you like but try to include all the basic requirements below. 
+This is an example of a simple to do list app written in React.<br>
+You can structure your app however you like but try to include all the basic requirements below. <br>
 We have given some suggestions for additional features to do if you want and have time but these are optional :smiley:
 
 # Installation :wrench:
 Make sure you have the latest version of [Node.js](https://nodejs.org/) installed.
-Install the dependencies and start the local server.
+
+Start with forking this repository from the menu above :point_up:
+
+Then make a local clone:
 
 ```sh
-$ npm install -g create-react-app
-$ create-react-app my-app
-$ cd my-app
+$ git clone ssh://git@git.is.comhem.com:7999/{insert-your-gitlab-user-name}/todo-react-app.git
+$ cd todo-react-app
+
+```
+
+Install the dependencies and start the local server:
+
+
+```sh
+$ npm install
 $ npm start
 ```
 
 Then open http://localhost:3000/ to see your app.
+<br>
 The page will reload automatically if you make edits.
 
 
