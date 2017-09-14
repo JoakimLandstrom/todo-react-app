@@ -44,7 +44,7 @@ $ npm test
   - Set a due date for a todo
   - Create todo categories
   - Write further tests in ```app.test.js```
- - ....and more!
+  - ....and more!
 
 # Useful Links :link:
 * [React documentation](https://facebook.github.io/react/) 
