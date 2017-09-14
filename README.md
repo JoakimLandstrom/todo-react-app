@@ -30,7 +30,7 @@ To run tests:
 ```sh
 $ npm test
 ```
-##### You can now start building your first React component in ```app.js``` !
+##### You can now start building your first React component in ```app.js``` :thumbsup:
 
 # Basic requirements of the app:
   - Add a new todo to your todo-list
@@ -52,4 +52,3 @@ $ npm test
 * [Facebook React tutorial](https://facebook.github.io/react/tutorial/tutorial.html) 
 * [More React tutorials](http://buildwithreact.com/) 
 
-:thumbsup:
