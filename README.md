@@ -52,4 +52,4 @@ $ npm test
 * [Facebook React tutorial](https://facebook.github.io/react/tutorial/tutorial.html) 
 * [More React tutorials](http://buildwithreact.com/) 
 
-
+:thumbsup:
