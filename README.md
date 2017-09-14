@@ -2,10 +2,10 @@
 
 
 
-&nbsp;
+<br><br>
 ![Com Hem](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSKoI_VsCygNKs_M50WQaUp4ibBAfgj3hgSxjBWBR-y2od8FX0sFc74P81)
 
-&nbsp;
+<br><br>
 
 ##### A React tutorial for talangprogrammet 2017 generated using [create-react-app](https://github.com/facebookincubator/create-react-app)
 
