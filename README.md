@@ -31,7 +31,7 @@ $ npm install
 $ npm start
 ```
 
-Then open http://localhost:3000/ to see your app.
+Then open http://localhost:3000/ to see your app. :rocket:
 <br>
 The page will reload automatically if you make edits.
 
@@ -43,7 +43,7 @@ $ npm test
 ```
 ##### You can now start building your first React component in ```app.js``` :thumbsup:
 
-# Basic requirements of the app :ledger:
+# Basic requirements of the app :memo:
   - Add a new todo to your todo-list
   - Edit a todo
   - Remove a todo from the list
