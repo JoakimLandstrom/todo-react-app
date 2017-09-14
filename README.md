@@ -1,5 +1,4 @@
 # Building a To Do list with ReactJS
-##### A React tutorial for talangprogrammet 2017 generated using [create-react-app](https://github.com/facebookincubator/create-react-app)
 
 
 
@@ -7,6 +6,8 @@
 ![Com Hem](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSKoI_VsCygNKs_M50WQaUp4ibBAfgj3hgSxjBWBR-y2od8FX0sFc74P81)
 
 &nbsp;
+
+##### A React tutorial for talangprogrammet 2017 generated using [create-react-app](https://github.com/facebookincubator/create-react-app)
 
 
 This is an example of a simple to do list app written in React.
