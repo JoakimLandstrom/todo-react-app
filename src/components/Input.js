@@ -1,27 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
+
+const Input = props => (
+
+        <input value={props.value} onKeyPress={props.handleSubmit} onChange={props.onChange}/>
+
+);
 
 
-class Input extends Component {
-
-    handleSubmitEnter = event => {
-
-        if(event.key === 'Enter') {
-            this.setState({
-                text: event.target.value
-            });
-            console.log(this.state.text)
-        }
-
-    };
-
-    render() {
-        return (
-            <div>
-                <input placeholder="Task.." onKeyPress={this.handleSubmitEnter}/>
-            </div>
-        );
-    }
-}
 
 export default Input;
-
