@@ -20,16 +20,29 @@ class App extends Component {
 
             this.setState({
                 input: '',
-                rows: [...this.state.rows, this.state.input]
+                rows: [...this.state.rows, {input: this.state.input, done: false}]
             });
         }
     }
 
     removeItem = event => {
+        var newArray = this.state.rows;
+        newArray.splice(event.target.value, 1);
 
         this.setState({
-           rows: //wtf måste deleta men javascript är bajs!???
+            rows: newArray
         });
+    }
+
+    handleListClick = event => {
+
+        console.log(event.type)
+        this.setState({
+
+        });
+    }
+
+    handleListDoubleClick = event => {
 
     }
 
@@ -38,7 +51,7 @@ class App extends Component {
             <div className="app">
                 <h1>To do:</h1>
                 <Input value={this.state.input} handleSubmit={this.handleSubmit} onChange={this.onChange}/>
-                <List rows={this.state.rows} removeItem={this.removeItem}/>
+                <List rows={this.state.rows} handleListClick={this.handleListClick} handleListDoubleClick={this.handleListDoubleClick} removeItem={this.removeItem}/>
             </div>
         );
     }
