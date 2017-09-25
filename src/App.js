@@ -34,16 +34,8 @@ class App extends Component {
         });
     }
 
-    handleListClick = event => {
-
-        console.log(event.type)
-        this.setState({
-
-        });
-    }
-
     handleListDoubleClick = event => {
-
+        
     }
 
     render() {
@@ -51,12 +43,10 @@ class App extends Component {
             <div className="app">
                 <h1>To do:</h1>
                 <Input value={this.state.input} handleSubmit={this.handleSubmit} onChange={this.onChange}/>
-                <List rows={this.state.rows} handleListClick={this.handleListClick} handleListDoubleClick={this.handleListDoubleClick} removeItem={this.removeItem}/>
+                <List rows={this.state.rows} handleListDoubleClick={this.handleListDoubleClick} removeItem={this.removeItem}/>
             </div>
         );
     }
 }
 
 export default App;
-
-// <input value={this.state.input} onChange={this.onChange} onKeyPress={this.handleSubmitEnter} />

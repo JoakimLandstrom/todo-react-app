@@ -9,7 +9,7 @@ const List = props => (
         {
             props.rows.map((row, index) =>
 
-            <ListItem key={index} handleListClick={props.handleListClick} value={row} removeItem={props.removeItem} index={index}/>
+            <ListItem key={index} handleListDoubleClick={props.handleListDoubleClick} value={row} removeItem={props.removeItem} index={index}/>
 
                 )
         }
