@@ -16,11 +16,11 @@ class App extends Component {
     }
 
     handleSubmit = event => {
-        if(event.key === 'Enter') {
+        if (event.key === 'Enter') {
 
             this.setState({
                 input: '',
-                rows: [...this.state.rows, {input: this.state.input, done: false}]
+                rows: [...this.state.rows, {input: this.state.input, done: false, editing: false}]
             });
         }
     }
@@ -35,15 +35,40 @@ class App extends Component {
     }
 
     handleListDoubleClick = event => {
-        
+
+        var newArray = this.state.rows;
+        newArray[event.target.value].editing = true;
+
+        this.setState({
+            rows: newArray
+        });
     }
+
+    handleTextEnter = event => {
+
+        console.log(event.key)
+
+        if (event.key === 'Enter') {
+
+
+            var newArray = this.state.rows;
+            newArray[event.target.accessKey].input = event.target.value;
+            newArray[event.target.accessKey].editing = false;
+
+            this.setState({
+                rows: newArray
+            });
+        }
+    }
+
 
     render() {
         return (
             <div className="app">
                 <h1>To do:</h1>
                 <Input value={this.state.input} handleSubmit={this.handleSubmit} onChange={this.onChange}/>
-                <List rows={this.state.rows} handleListDoubleClick={this.handleListDoubleClick} removeItem={this.removeItem}/>
+                <List handleTextEnter={this.handleTextEnter} rows={this.state.rows}
+                      handleListDoubleClick={this.handleListDoubleClick} removeItem={this.removeItem}/>
             </div>
         );
     }
