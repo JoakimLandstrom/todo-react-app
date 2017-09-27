@@ -1,0 +1,41 @@
+.app {
+    max-width: 100%;
+    width: 489px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background: url("../resources/windows_95_app.jpg");
+    position: fixed;
+    left: 50%;
+    top: 13%;
+    margin-left: -240px;
+}
+
+Input{
+    width: 20em;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -10em;
+}
+ul{
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    width: 30%;
+    height: 60%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1{
+    font-family: Andalus;
+    font-size: 2.5em;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    margin-left: -1.25em;
+}

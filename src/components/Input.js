@@ -2,7 +2,7 @@ import React from 'react';
 
 const Input = props => (
 
-        <input value={props.value} onKeyPress={props.handleSubmit} onChange={props.onChange}/>
+        <input required value={props.value} onKeyPress={props.handleSubmit} onChange={props.onChange} />
 
 );
 

@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("../resources/windows_95.jpg") silver;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
