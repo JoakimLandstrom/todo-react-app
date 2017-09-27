@@ -10,7 +10,6 @@ class App extends Component {
         rows: []
     }
 
-
     onChange = event => {
         this.setState({input: event.target.value});
     }
