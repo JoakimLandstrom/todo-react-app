@@ -1,8 +1,40 @@
 button{
-    float: left;
-    width: 50%;
+    width: 10%;
+    outline: none;
+    background-color: silver;
+    padding: 0;
+    float: right;
+    height: 100%;
+    color: black;
+    font-weight: bold;
+    margin-top: 3%;
 }
 li{
-    width: 50%;
+    width: 100%;
     float: left;
+}
+textarea{
+    width: 90%;
+    height: 100%;
+    float: left;
+    box-shadow: inset 0px 0px 1px;
+    resize: none;
+    outline: none;
+    margin-top: 3%;
+}
+
+.ListItemEdit{
+    height: 7%;
+}
+
+.ListItem{
+    margin-top: 3%;
+    height: 7%;
+    border-bottom:solid 2px dimgrey;
+}
+
+.ListItem:hover{
+    margin-top: 3%;
+    height: 7%;
+    background-color: silver;
 }

@@ -3,12 +3,11 @@
     width: 30%;
     height: 65%;
     padding: 0;
-    background: url("../resources/windows_95_app.jpg");
+    background: no-repeat url("../resources/windows_95_app.jpg");
     position: fixed;
     left: 35%;
     top: 13%;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 Input{
@@ -20,6 +19,7 @@ Input{
     box-shadow: inset 0px 0px 2px;
     padding: 3px;
     outline: none;
+    font-size: 1em;
 }
 ul{
     position: fixed;
